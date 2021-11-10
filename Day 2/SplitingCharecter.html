@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charecter Split</title>
+</head>
+<body>
+    <h1>JavaScript String Methods</h1>
+    <p>Using String.split():</p>
+
+    <p id="hridoy"></p>
+
+    <script>
+        let text= "Hello";
+        const myArr = text.split("");
+
+        text = "";
+        for(let i=0; i<myArr.length; i++){
+            text += myArr[i] + "<br>"
+        }
+        document.getElementById("hridoy").innerHTML=text;
+    </script>
+</body>
+</html>

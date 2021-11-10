@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replace String</title>
+</head>
+<body>
+    <h1>JavaScript String Methods</h1>
+    <p>Replace "Microsoft" with "W3Schools"</p>
+    <button type="button" onclick="myFunction()">Click It</button>
+    <p id="hridoy">Please visit Microsoft!</p>
+
+    <script>
+        function myFunction(){
+            let text= document.getElementById("hridoy").innerHTML;
+            document.getElementById("hridoy").innerHTML= text.replace("Microsoft","W3School");
+        }
+    </script>
+</body>
+</html>

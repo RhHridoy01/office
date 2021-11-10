@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Map Object</h1>
+    <p>Creating a Map from an Array:</p>
+
+    <p id="hridoy"></p>
+
+    <script>
+        const fruits = new Map([
+            ["Apple",500],
+            ["Bananas",300],
+            ["Orange",200]
+        ]);
+
+        document.getElementById("hridoy").innerHTML= fruits.get("Bananas");
+    </script>
+</body>
+</html>

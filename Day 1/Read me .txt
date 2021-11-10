@@ -1,0 +1,6 @@
+JavaScript can change HTML Content
+It accept both single and double quotes
+JavaScript can change HTML attribute value
+JavaScript can change HTML style without any external css
+JavaScript can hide HTML Element.
+JavaScript can show HTML Content

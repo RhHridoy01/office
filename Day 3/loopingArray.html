@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Array</title>
+</head>
+<body>
+    <h1>Looping Array</h1>
+    <p>The best way ti loop through an array is using a standard for loop:</p>
+    <p id="hridoy"></p>
+
+
+    <script>
+        const fruits =["Banana","Orange","Apple","Mango"];
+        let fLen= fruits.length;
+
+        let text = "<ul>";
+        for(let i=0;i<fLen;i++){
+            text += "<li>" + fruits[i] + "</li>";
+        }
+        text +="</ul>";
+
+        document.getElementById("hridoy").innerHTML=text;
+    </script>
+</body>
+</html>
